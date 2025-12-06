@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": "s1",
+      "role": "student",
+      "name": "Student A",
+      "email": "a@hcmut.edu.vn",
+      "subjects": [
+        "Math"
+      ]
+    },
+    {
+      "id": "t1",
+      "role": "tutor",
+      "name": "Tutor A",
+      "email": "t@hcmut.edu.vn",
+      "subjects": [
+        "Math"
+      ],
+      "weeklyQuota": 5
+    }
+  ],
+  "registrationForms": [
+    {
+      "studentId": "s1",
+      "grade": "12",
+      "major": "computer science",
+      "studyGoals": "A in this class",
+      "preferredSubjects": [
+        "Math"
+      ],
+      "id": 1
+    }
+  ],
+  "availability": [
+    {
+      "tutorId": "t1",
+      "slotId": "slot_1765040788116",
+      "start": "2025-12-07T00:05",
+      "end": "2025-12-07T00:40",
+      "type": "online",
+      "subject": "Math",
+      "note": "",
+      "id": 2
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "studentId": "s1",
+      "tutorId": "t1",
+      "subject": "Math",
+      "startTime": "To be scheduled",
+      "endTime": "To be scheduled",
+      "status": "CANCELLED",
+      "sessionID": "ss_1765039949893"
+    },
+    {
+      "id": 2,
+      "studentId": "s1",
+      "tutorId": "t1",
+      "subject": "Math",
+      "startTime": "To be scheduled",
+      "endTime": "To be scheduled",
+      "status": "COMPLETED",
+      "sessionID": "ss_1765041268082"
+    },
+    {
+      "id": 3,
+      "studentId": "s1",
+      "tutorId": "t1",
+      "subject": "Math",
+      "startTime": "To be scheduled",
+      "endTime": "To be scheduled",
+      "status": "SCHEDULED",
+      "sessionID": "ss_1765041364974"
+    },
+    {
+      "id": 4,
+      "studentId": "s1",
+      "tutorId": "t1",
+      "subject": "Math",
+      "startTime": "To be scheduled",
+      "endTime": "To be scheduled",
+      "status": "SCHEDULED",
+      "sessionID": "ss_1765041377081"
+    }
+  ],
+  "feedbacks": [],
+  "resources": [
+    {
+      "id": "r1",
+      "title": "Math Slides",
+      "description": "PDF slides covering basic math concepts.",
+      "subject": "Math",
+      "url": "https://example.com/math.pdf"
+    },
+    {
+      "id": "r2",
+      "title": "Data Structures Notes",
+      "description": "Quick notes for data structure revision.",
+      "subject": "Computer Science",
+      "url": "https://example.com/dsa-notes.pdf"
+    }
+],
+  "matchAudit": [],
+  "accessLogs": []
+}
